@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Sahel";
+  font-weight: normal;
+  src: url("./assets/fonts/Sahel/Sahel.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sahel";
+  font-weight: 200;
+  src: url("./assets/fonts/Sahel/Sahel-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sahel";
+  font-weight: bold;
+  src: url("./assets/fonts/Sahel/Sahel-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vazir";
+  font-weight: normal;
+  src: url("./assets/fonts/Vazir/Vazir-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vazir";
+  font-weight: 200;
+  src: url("./assets/fonts/Vazir/Vazir-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Vazir";
+  font-weight: bold;
+  src: url("./assets/fonts/Vazir/Vazir-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Shabnam";
+  font-weight: normal;
+  src: url("./assets/fonts/Shabnam/Shabnam.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Shabnam";
+  font-weight: 200;
+  src: url("./assets/fonts/Shabnam/Shabnam-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Shabnam";
+  font-weight: bold;
+  src: url("./assets/fonts/Shabnam/Shabnam-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: normal;
+  src: url("./assets/fonts/Estedad/Estedad-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: 200;
+  src: url("./assets/fonts/Estedad/Estedad-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: bold;
+  src: url("./assets/fonts/Estedad/Estedad-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/Yekan/Yekan.woff") format("woff");
+}
+
+.sahel {
+  direction: rtl;
+  font-family: "Sahel";
+}
+
+.yekan {
+  direction: rtl;
+  font-family: "Yekan";
+}
+
+.vazir {
+  direction: rtl;
+  font-family: "Vazir";
+}
+
+.shabnam {
+  direction: rtl;
+  font-family: "Shabnam";
+}
+
+.estedad {
+  direction: rtl;
+  font-family: "Estedad";
+}
+
+#user_watermark {
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  background: linear-gradient(-120deg, #a70707, #be0c0c, #d62121, #c72c2c);
+  background-size: 300% 100%;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  max-width: 500px;
+  padding: 7px 50px;
+  box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  transition: all 0.5s linear;
+}
+
+#user_watermark:hover {
+  background-position: 100% 0;
+}
