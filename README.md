@@ -1,2 +1,2 @@
-# menu
-Beautiful menu with HTML and CSS
+# Menu
+An example of a beautiful menu with html and css
