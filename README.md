@@ -20,4 +20,4 @@ Open index.html with your browser.
 
 Download Source Code: [Click Here](https://github.com/dori-dev/menu/archive/refs/heads/main.zip)
 
-My github acount: [Click Here](https://github.com/dori-dev/)
+My Github Acount: [Click Here](https://github.com/dori-dev/)
